@@ -14,5 +14,3 @@ end
 def move(array, index, value = "X")
   board[input_num] = value
 end
-
-

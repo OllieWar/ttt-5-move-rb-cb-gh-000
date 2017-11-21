@@ -11,7 +11,7 @@ def input_to_index(input_num)
   input_num.to_i - 1
 end
 
-def move(array, index, value)
+def move(array, index, value = "X")
   value = board[input_num]
   display_board(value)
 end
